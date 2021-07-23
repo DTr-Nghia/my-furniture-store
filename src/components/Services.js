@@ -28,7 +28,7 @@ const Wrapper = styled.section`
         justify-content: center;
         align-items: center;
         h3 {
-            font-family: 'Playlist Script';
+            font-family: 'Poppins',sans-serif;
             font-size: 2.5rem;
             color: var(--clr-primary-1);
             letter-spacing: var(--spacing);

@@ -24,9 +24,9 @@ const Wrapper = styled.div`
             column-gap: 1rem;
             h5 {
                 color:var(--clr-primary-5);
-                font-weight: 400;
-                font-family: "Playlist Script";
-                font-size: 1.5rem;
+                font-weight: 600;
+                font-family: "Poppins",sans-serif;
+                font-size: 1.2rem;
                 letter-spacing: 0.2rem;
             }
         }

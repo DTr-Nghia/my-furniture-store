@@ -81,7 +81,7 @@ const CheckoutForm = () => {
       <h4>Your payment was successful!</h4>
       <Link to="/">Let's back to homepage</Link>
     </article>:
-    <article>
+    <article className="order-total">
               <h5>subtotal: <span>{formatPrice(total_amount)}</span></h5>
                     <p>
                         shipping fee: <span>{formatPrice(shipping_fee)}</span>
@@ -122,6 +122,18 @@ const StripeCheckout = () => {
 }
 const Wrapper = styled.section`
 font-family: "Poppins",sans-serif;
+@media (max-width:1023px) {
+  .order-total {
+    width:20rem;
+    margin-top: 5rem;
+    margin-left: 6rem;
+  }
+}
+@media (max-width:767px){
+  .order-total {
+    margin-left: 5.5rem;
+  }
+}
 article {
         border: 1px solid var(--clr-grey-8);
         border-radius: 6px;

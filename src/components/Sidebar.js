@@ -74,7 +74,7 @@ const SidebarWrapper = styled.div`
         color: var(--clr-tertiary);
     }
     .links {
-        margin-left: 2rem;
+        margin-left: 1rem;
     }
     .links a {
         display: block;
@@ -82,7 +82,7 @@ const SidebarWrapper = styled.div`
         text-transform: capitalize;
         font-size: 2rem;
         padding: 1.5rem;
-        font-family: 'Playlist Script';
+        font-family: 'Poppins',sans-serif;
         color: var(--clr-black);
         letter-spacing: var(--spacing);
         transition: var(--transition);

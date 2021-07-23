@@ -65,6 +65,7 @@ const Wrapper = styled.div`
         display: flex;
         flex-direction: column;
         margin-bottom: 2rem;
+        margin-left: 1rem;
         width: 100%;
     }
     .signup-form_input {
@@ -108,7 +109,12 @@ const Wrapper = styled.div`
         font-size: 1rem;
         text-transform: capitalize;
     }
-    @media(max-width: 768px){
+    @media(max-width:1023px){
+        .form-container {
+            margin-left: 3.5rem;
+        }
+    }
+    @media(max-width: 767px){
         h1 {
             font-size:3rem;
             margin-top: 1.5rem;
@@ -116,7 +122,6 @@ const Wrapper = styled.div`
         }
         .form-container {
             margin-bottom: 1rem;
-            margin-left: 1.5rem;
         }
         .btn {
             margin-bottom: 1rem;

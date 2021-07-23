@@ -45,7 +45,7 @@ const Filters = () => {
                             onClick={updateFilters}
                             type="button"
                             name="category"
-                            className={`${category === c.toLowerCase() ? 'active': null}`}
+                            className={`${category === c.toLowerCase() ? 'single-category active': 'single-category'}`}
                             >{c}</button>
                         })}
                     </div>
@@ -209,8 +209,10 @@ const Wrapper = styled.section`
     }
     .category {
         display: flex;
-        column-gap:1.25rem;
         flex-wrap: wrap;
+      .single-category{
+        margin-right: 1.25rem;
+      }
     }
   }
 `

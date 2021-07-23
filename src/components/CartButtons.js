@@ -35,17 +35,17 @@ const CartButtons = () => {
 const Wrapper = styled.div`
     display: flex;
     align-items: center;
-    gap: 3rem;
     width: 150px;
     
     .cart-button {
         color: var(--clr-black);
-        font-size: 1.5rem;
-        font-family: Playlist Script;
+        font-size: 1.2rem;
+        font-family: 'Poppins',sans-serif;
         letter-spacing: var(--spacing);
         display: flex;
         align-items: center;
         transition: var(--transition);
+        margin-right: 2rem ;
         &:hover {
             color: var(--clr-primary-5);
         }
@@ -61,18 +61,20 @@ const Wrapper = styled.div`
     }
     .cart-value {
         position: absolute;
-        font-size: 1.1rem;
+        font-size: 1rem;
+        font-family: 'Poppins',sans-serif;
         top: -8px;
-        right: -10px;
-        width: 18px;
-        height: 18px;
+        right: -11px;
+        width: 15px;
+        height: 15px;
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
         background-color:var(--clr-primary-5);
         color: #fffffe;
         border-radius: 50% ;
-        padding: 5px;
+        padding: 10px;
     }
     .auth-btn {
         display: flex;
@@ -80,8 +82,8 @@ const Wrapper = styled.div`
         background: transparent;
         border-color: transparent;
         color: var(--clr-black);
-        font-size: 1.5rem;
-        font-family: 'Playlist Script';
+        font-size: 1.2rem;
+        font-family: 'Poppins',sans-serif;
         letter-spacing: var(--spacing);
         cursor: pointer;
         transition: var(--transition);

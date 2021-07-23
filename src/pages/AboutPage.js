@@ -36,13 +36,16 @@ const Wrapper = styled.section`
         margin-top: 2rem;
         color: var(--clr-primary-5);
         font-size: 1rem;
+        font-family: 'Poppins',sans-serif;
     }
     .title {
         text-align: left;
-        font-family: "Playlist Script";
+        font-family: "Poppins",sans-serif;
+        color: var(--clr-primary-1);
     }
     .underline {
         margin-left: 0;
+        width: 12rem;
     }
     @media (min-width: 992px) {
         grid-template-columns: 1fr 1fr;

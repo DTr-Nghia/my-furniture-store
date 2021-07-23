@@ -32,7 +32,7 @@ padding: 5rem 0;
   h3 {
     text-transform: none;
     color: var(--clr-primary-1);
-    font-family: 'Playlist Script';
+    font-family: 'Poppins',sans-serif;
     letter-spacing: var(--spacing);
     font-size: 2.5rem;
   }
@@ -80,6 +80,7 @@ padding: 5rem 0;
     color: var(--clr-black);
     background: var(--clr-primary-8);
   }
+  
   @media (min-width: 992px) {
     .content {
       display: grid;

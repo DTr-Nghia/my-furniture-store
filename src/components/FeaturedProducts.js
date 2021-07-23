@@ -54,9 +54,10 @@ const FeaturedProducts = () => {
 }
 const Wrapper = styled.section`
     h2{
-        font-family: "Playlist Script";
+        font-family: "Poppins", sans-serif;
         letter-spacing: 0.2rem;
-        color: var(--clr-primary-1)
+        color: var(--clr-primary-1);
+        font-size: 2.5rem;
     }
     .featured {
     margin: 4rem auto;

@@ -48,7 +48,7 @@ const NavContainer = styled.nav`
     .nav-center {
         width: 90vw;
         margin:0 auto;
-        max-width: var(--max-width);
+
     }
     .nav-header {
         display: flex;
@@ -101,9 +101,9 @@ const NavContainer = styled.nav`
             }
             a {
                 color: var(--clr-headline-primary);
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 text-transform: capitalize;
-                font-family: 'Playlist Script';
+                font-family: 'Poppins',sans-serif;
                 letter-spacing: var(--spacing);
                 padding: 0.5rem;
                 position: relative;
