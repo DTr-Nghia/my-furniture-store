@@ -10,7 +10,6 @@ export const AuthProvider = ({children}) => {
     const [toLogin,setToLogin] = useState(true);
     const [toSignUp,setToSignUp]= useState(false);
     const [toRecover, setToRecover] = useState(false);
-
     const changetoLogin = () => {
         setToLogin(true);
         setToSignUp(false);
